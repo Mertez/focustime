@@ -2,6 +2,7 @@ import * as React from 'react';
 import { Text, View, StyleSheet, Image } from 'react-native';
 
 export default function AssetExample() {
+  console.log('hey');
   return (
     <View style={styles.container}>
       <Text style={styles.paragraph}>
